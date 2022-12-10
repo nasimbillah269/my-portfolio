@@ -26,16 +26,16 @@ const Contact = () => {
                         <h2 className='text-2xl  mb-4 text-white'>Get In Touch</h2>
                         <div className='flex  items-center '>
                             <MdEmail className='text-4xl text-white mr-4 bg-gray-900 p-1 rounded-lg'></MdEmail>
-                            <p className='text-2xl font-semibold text-white'> nasimbillah269@gmail.com</p>
+                            <p className='text-1xl lg:text-2xl font-semibold text-white'> nasimbillah269@gmail.com</p>
 
                         </div>
                         <div className='flex items-center mt-4'>
                             <FaMapMarkerAlt className='text-4xl text-white mr-4 bg-gray-900 p-1 rounded-lg'> </FaMapMarkerAlt>
-                            <p className='text-2xl font-semibold text-white' > Rajshahi, Bangladesh</p>
+                            <p className='text-1xl lg:text-2xl font-semibold text-white' > Rajshahi, Bangladesh</p>
                         </div>
                         <div className='flex items-center mt-4'>
                             <FaPhoneAlt className='text-4xl text-white mr-4 bg-gray-900 p-1 rounded-lg '></FaPhoneAlt>
-                            <p className='text-2xl font-semibold text-white'>  +8801738476741</p>
+                            <p className='text-1xl lg:text-2xl font-semibold text-white'>  +8801738476741</p>
                         </div>
 
                         <div className='flex mt-8'>
