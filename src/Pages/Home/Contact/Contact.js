@@ -40,15 +40,15 @@ const Contact = () => {
 
                         <div className='flex mt-8'>
                             <a href="https://www.linkedin.com/in/nasim-billah-456a5321b/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin className='text-4xl text-white mr-4 hover:bg-blue-600 hover:border-0  '></FaLinkedin>
+                                <FaLinkedin className='text-4xl text-white animate-bounce mr-4 hover:bg-blue-600 hover:border-0  '></FaLinkedin>
                             </a>
 
                             <a href="https://www.facebook.com/mdnasim.billah.50" target="_blank" rel="noopener noreferrer">
-                                <FaFacebookSquare className='text-4xl text-white mr-4  hover:bg-blue-600 hover:border-none '></FaFacebookSquare>
+                                <FaFacebookSquare className='text-4xl text-white mr-4 animate-bounce  hover:bg-blue-600 hover:border-none '></FaFacebookSquare>
                             </a>
 
                             <a href="https://github.com/nasimbillah269" target="_blank" rel="noopener noreferrer">
-                                <FaGithubSquare className='text-4xl text-white  hover:bg-black hover:text-blue-600 hover:border-none '></FaGithubSquare>
+                                <FaGithubSquare className='text-4xl text-white  animate-bounce hover:bg-black hover:text-blue-600 hover:border-none '></FaGithubSquare>
                             </a>
 
                         </div>

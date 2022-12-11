@@ -5,11 +5,12 @@ import javascript from '../../../assets/images/js.png'
 import bootstarp from '../../../assets/images/bootstrap.png'
 import tailwind from '../../../assets/images/tailwindcss.png'
 import firebase from '../../../assets/images/firebase.png'
-import github from '../../../assets/images/github.png'
+import github1 from '../../../assets/images/github1.png'
 import mongodb from '../../../assets/images/mongodb.png'
 import react from '../../../assets/images/react.png'
 import node from '../../../assets/images/node.png'
 import visual from '../../../assets/images/visual-studio.png'
+import figma from '../../../assets/images/figma.png'
 import Skill from './Skill';
 const Skills = () => {
     const skills = [
@@ -46,7 +47,7 @@ const Skills = () => {
         {
             id: 7,
             name: 'Github',
-            image: github
+            image: github1
         },
         {
             id: 8,
@@ -55,18 +56,23 @@ const Skills = () => {
         },
         {
             id: 9,
-            name: 'React.Js',
+            name: 'React . Js',
             image: react
         },
         {
             id: 10,
-            name: 'Node.Js',
+            name: 'Node . Js',
             image: node
         },
         {
             id: 11,
             name: 'Visual Studio',
             image: visual
+        },
+        {
+            id: 12,
+            name: 'Figma',
+            image: figma
         },
 
     ]

@@ -3,6 +3,7 @@ import Main from "../layout/Main";
 import Aboute from "../Pages/Home/Aboute/Aboute";
 import Contact from "../Pages/Home/Contact/Contact";
 import Home from "../Pages/Home/Home/Home";
+import ProjectDetails from "../Pages/Home/ProjectDetails/ProjectDetails";
 import Projects from "../Pages/Home/Projects/Projects";
 import Skills from "../Pages/Home/Skills/Skills";
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
                 path: '/aboute',
                 element: <Aboute></Aboute>
             },
+            {
+                path: '/projects/:id',
+                element: <ProjectDetails></ProjectDetails>
+            }
 
 
         ]
